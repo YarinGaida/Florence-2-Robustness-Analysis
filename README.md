@@ -1,4 +1,4 @@
-# Florence-2 Architecture & Robustness Analysis
+# 👁️ Florence-2: Architecture & Robustness Analysis
 
 ## Overview
 
