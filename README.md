@@ -1,6 +1,6 @@
 # 👁️ Florence-2: Architecture & Robustness Analysis
 
-## Overview
+## 🎯 Project Overview
 
 This project evaluates the zero-shot object detection performance and robustness of Microsoft's Florence-2 vision-language model.
 
@@ -20,7 +20,7 @@ The analysis focuses on:
 - Evaluation subset: 1,000 images
 - Robustness stress test: 100 images
 
-## Experiments
+## 🔬 Experimental Setup & Findings
 
 ### 1. Quantitative Baseline
 
@@ -49,7 +49,7 @@ The effect of brightness degradation on object detection recall is measured.
 
 Difficult cases are extracted from scenes containing multiple objects where Florence-2 achieves zero recall.
 
-## Environment
+## 🛠️ Environmen
 
 Recommended:
 
