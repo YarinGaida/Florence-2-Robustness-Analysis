@@ -114,19 +114,19 @@ Florence2_Robustness_Analysis.ipynb
 
 The notebook is organized into the following sequential stages:
 
-Environment setup and model loading
+1. Environment setup and model loading
 
-Evaluation metric implementation
+2. Evaluation metric implementation
 
-COCO quantitative baseline
+3. COCO quantitative baseline
 
-Baseline result visualization
+4. Baseline result visualization
 
-Brightness robustness stress test
+5. Brightness robustness stress test
 
-Robustness visualization
+6. Robustness visualization
 
-Qualitative failure-case analysis
+7. Qualitative failure-case analysis
 
 Execution Environments:
 The notebook can be executed using either:
