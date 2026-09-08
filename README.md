@@ -4,7 +4,7 @@
 
 ## 🎯 Project Overview
 
-This project evaluates the zero-shot object detection performance and robustness of Microsoft's Florence-2-base vision-language model. You can view the complete implementation directly in the [Florence2_Robustness_Analysis.ipynb](./Florence2_Robustness_Analysis.ipynb) notebook.
+This project evaluates the zero-shot object detection performance and robustness of Microsoft's Florence-2-base vision-language model.
 
 The analysis focuses on:
 - Quantitative object detection performance on the COCO validation dataset
@@ -55,7 +55,7 @@ The selected images are visualized together with:
 
 ## 📊 Results
 
-The experiments generate the following outputs:
+During execution, the experiments generate the following quantitative result files:
 - `florence2_coco_quantitative_baseline.csv`
 - `florence2_stress_test_results.csv`
 
@@ -68,11 +68,11 @@ The notebook also generates visualization plots for:
 ## 🛠️ Environment
 
 The project was developed and tested using:
-- Python 3.12 (Colab/Local)
+- Python 3.12
 - CUDA-enabled GPU
 - PyTorch
-- Transformers (Latest compatible version)
-- Tokenizers
+- Transformers 4.41.2
+- Tokenizers 0.19.1
 
 All required Python packages are listed in `requirements.txt`.
 
@@ -112,10 +112,15 @@ The notebook is organized into the following sequential stages:
 6. Robustness visualization
 7. Qualitative failure-case analysis
 
-**Execution Environments:**
-The notebook can be executed using either:
-- **Google Colab:** Ensure a GPU runtime is enabled. Select a Python 3.12 runtime before running the notebook.
-- **Local Environment:** Jupyter Notebook / VS Code with a CUDA-enabled GPU.
+## Google Colab
+1. Open Florence2_Robustness_Analysis.ipynb in Google Colab.
+2. Select a GPU runtime.
+3. Run the notebook cells sequentially from top to bottom.
+4. The required Python dependencies are installed in the first code cell.
+5. The notebook downloads the Florence-2 model and COCO validation data automatically.
+
+## Local Environment
+The notebook is intended to be executed using Jupyter Notebook or VS Code with a CUDA-enabled GPU and the dependencies strictly matched to those listed in requirements.txt.
 
 ## 📁 Project Structure
 
@@ -128,8 +133,10 @@ Florence-2-Robustness-Analysis/
 ├── .gitignore
 │
 └── results/
-    ├── florence2_coco_quantitative_baseline.csv
-    └── florence2_stress_test_results.csv
+    └── figures/
+        ├── baseline_recall_distribution_and_scene_density_recall.png
+        ├── brightness_stress_test.png
+        └── dense_scene_failure_cases.png
 ```
 
 ## 📚 References
