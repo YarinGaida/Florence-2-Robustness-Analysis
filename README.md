@@ -1,6 +1,6 @@
 # 👁️ Florence-2: Architecture & Robustness Analysis
 
-[![Open Notebook](https://img.shields.io/badge/Open-Notebook-blue?logo=jupyter)](./Florence2_Robustness_Analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YarinGaida/Florence-2-Robustness-Analysis/blob/main/Florence2_Robustness_Analysis.ipynb)
 
 ## 🎯 Project Overview
 
